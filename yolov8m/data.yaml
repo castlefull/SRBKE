@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 20
+names: ['Chemical_respirator', 'PCR', 'autoclave', 'biohazard_symbol', 'cell_culture', 'centrifuge', 'chemical_hazard','Geiger_counter','Lead_Apron_Gloves','cartridge','chromatography_equipment','emergency_shower','human','glass_apparatus','lab_animal','laboratory_chemicals','manipulation_arm','microscope','radiation_hazard_symbol','radioactive_hot_cell']
+
+roboflow:
+  workspace: cbr-lnp
+  project: cbr-lnp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cbr-lnp/cbr-lnp/dataset/13,

@@ -1,0 +1,33 @@
+description: Ultralytics best model trained on C:\Users\windows11\Downloads\CBR LNP.v1i.yolov8\data.yaml
+author: Ultralytics
+date: '2024-12-19T14:14:02.507035'
+version: 8.3.40
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Chemical_respirator
+  1: PCR
+  2: autoclave
+  3: biohazard_symbol
+  4: cell_culture
+  5: centrifuge
+  6: chemical_hazard
+  7: Geiger_counter
+  8: Lead_Apron_Gloves
+  9: cartridge
+  10: chromatography_equipment
+  11: emergency_shower
+  12: human
+  13: glass_apparatus
+  14: lab_animal
+  15: laboratory_chemicals
+  16: manipulation_arm
+  17: microscope
+  18: radiation_hazard_symbol
+  19: radioactive_hot_cell
